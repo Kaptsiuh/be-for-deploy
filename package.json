@@ -1,0 +1,45 @@
+{
+  "name": "todolist-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "build": "webpack",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "^0.15.4",
+    "@types/morgan": "^1.9.9",
+    "bufferutil": "^4.0.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "drizzle-orm": "^0.43.1",
+    "express": "^5.1.0",
+    "morgan": "^1.10.0",
+    "utf-8-validate": "^6.0.5",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
+    "buffer": "^6.0.3",
+    "drizzle-kit": "^0.31.0",
+    "ignore-loader": "^0.1.2",
+    "node-loader": "^2.1.0",
+    "nodemon": "^3.1.10",
+    "stream-browserify": "^3.0.0",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "util": "^0.12.5",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1"
+  }
+}
